@@ -25,8 +25,24 @@ class LocationDetailViewController: UIViewController {
         }
 
         // Do any additional setup after loading the view.
+        loadLocations()
         updateUserInterface()
     }
+    
+    func loadLocations(){
+        guard let locationsEncoded = UserDefaults.standard.value(forKey: "weatherLocations") as? Data else{
+            print("WARNING: Could not load weatherLocations. IF first time, it's ok to ignore")
+            return
+        }
+        let decoder = JSONDecoder()
+        if let weatherLocations = try? decoder.decode(Array.self, from: locationsEncoded) as [WeatherLocation]{
+            self.weatherLocations = weatherLocations
+        }
+        else {
+            print("ERROR: Couldn't decode data read from UserDefaults.")
+        }
+    }
+    
     func updateUserInterface(){
         dateLabel.text = ""
         placeLabel.text = weatherLocation.name
