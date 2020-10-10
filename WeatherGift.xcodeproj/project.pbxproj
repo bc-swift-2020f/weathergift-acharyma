@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7E96A93425323E24009D9C27 /* APIkeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E96A93325323E24009D9C27 /* APIkeys.swift */; };
+		7E96A93725324072009D9C27 /* APIkeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E96A93625324072009D9C27 /* APIkeys.swift */; };
 		7E9F23CD2532258F009D0247 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E9F23CC2532258F009D0247 /* AppDelegate.swift */; };
 		7E9F23CF2532258F009D0247 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E9F23CE2532258F009D0247 /* SceneDelegate.swift */; };
 		7E9F23D12532258F009D0247 /* LocationListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E9F23D02532258F009D0247 /* LocationListViewController.swift */; };
@@ -19,7 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		7E96A93325323E24009D9C27 /* APIkeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIkeys.swift; sourceTree = "<group>"; };
+		7E96A93625324072009D9C27 /* APIkeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIkeys.swift; sourceTree = "<group>"; };
 		7E9F23C92532258F009D0247 /* WeatherGift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeatherGift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E9F23CC2532258F009D0247 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7E9F23CE2532258F009D0247 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -84,7 +84,7 @@
 				7E9F23D52532259C009D0247 /* Assets.xcassets */,
 				7E9F23D72532259C009D0247 /* LaunchScreen.storyboard */,
 				7E9F23DA2532259C009D0247 /* Info.plist */,
-				7E96A93325323E24009D9C27 /* APIkeys.swift */,
+				7E96A93625324072009D9C27 /* APIkeys.swift */,
 			);
 			path = WeatherGift;
 			sourceTree = "<group>";
@@ -213,7 +213,7 @@
 			files = (
 				7E9F23D12532258F009D0247 /* LocationListViewController.swift in Sources */,
 				7E9F23E32532280C009D0247 /* WeatherLocation.swift in Sources */,
-				7E96A93425323E24009D9C27 /* APIkeys.swift in Sources */,
+				7E96A93725324072009D9C27 /* APIkeys.swift in Sources */,
 				7E9F23CD2532258F009D0247 /* AppDelegate.swift in Sources */,
 				7E9F23CF2532258F009D0247 /* SceneDelegate.swift in Sources */,
 			);
