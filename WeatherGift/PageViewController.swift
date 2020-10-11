@@ -26,7 +26,7 @@ class PageViewController: UIPageViewController {
         guard let locationsEncoded = UserDefaults.standard.value(forKey: "weatherLocations") as? Data else{
             print("WARNING: Could not load weatherLocations. IF first time, it's ok to ignore")
             //TODO: Get user location for first elemnet in weatherLocations
-            weatherLocations.append(WeatherLocation(name: "Current Location", latitude: 20.20, longitude: 20.20))
+            weatherLocations.append(WeatherDetail(name: "Current Location", latitude: 20.20, longitude: 20.20))
             return
         }
         let decoder = JSONDecoder()
@@ -37,7 +37,7 @@ class PageViewController: UIPageViewController {
             print("ERROR: Couldn't decode data read from UserDefaults.")
         }
         if weatherLocations.isEmpty {
-            weatherLocations.append(WeatherLocation(name: "Current Location", latitude: 20.20, longitude: 20.20))
+            weatherLocations.append(WeatherDetail(name: "Current Location", latitude: 20.20, longitude: 20.20))
             //TODO: Get user location for first elemnet in weatherLocations
         }
     }
