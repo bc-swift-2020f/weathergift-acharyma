@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		7E96A93725324072009D9C27 /* APIkeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E96A93625324072009D9C27 /* APIkeys.swift */; };
 		7E96A93B2532685F009D9C27 /* LocationDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E96A93A2532685F009D9C27 /* LocationDetailViewController.swift */; };
+		7E96A93E25328475009D9C27 /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E96A93D25328475009D9C27 /* PageViewController.swift */; };
 		7E9F23CD2532258F009D0247 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E9F23CC2532258F009D0247 /* AppDelegate.swift */; };
 		7E9F23CF2532258F009D0247 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E9F23CE2532258F009D0247 /* SceneDelegate.swift */; };
 		7E9F23D12532258F009D0247 /* LocationListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E9F23D02532258F009D0247 /* LocationListViewController.swift */; };
@@ -22,6 +23,7 @@
 /* Begin PBXFileReference section */
 		7E96A93625324072009D9C27 /* APIkeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIkeys.swift; sourceTree = "<group>"; };
 		7E96A93A2532685F009D9C27 /* LocationDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationDetailViewController.swift; sourceTree = "<group>"; };
+		7E96A93D25328475009D9C27 /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
 		7E9F23C92532258F009D0247 /* WeatherGift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeatherGift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E9F23CC2532258F009D0247 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7E9F23CE2532258F009D0247 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -81,6 +83,7 @@
 				7E9F23CC2532258F009D0247 /* AppDelegate.swift */,
 				7E9F23CE2532258F009D0247 /* SceneDelegate.swift */,
 				7E9F23E22532280C009D0247 /* WeatherLocation.swift */,
+				7E96A93D25328475009D9C27 /* PageViewController.swift */,
 				7E96A93A2532685F009D9C27 /* LocationDetailViewController.swift */,
 				7E9F23D02532258F009D0247 /* LocationListViewController.swift */,
 				7E9F23D22532258F009D0247 /* Main.storyboard */,
@@ -215,6 +218,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7E9F23D12532258F009D0247 /* LocationListViewController.swift in Sources */,
+				7E96A93E25328475009D9C27 /* PageViewController.swift in Sources */,
 				7E9F23E32532280C009D0247 /* WeatherLocation.swift in Sources */,
 				7E96A93725324072009D9C27 /* APIkeys.swift in Sources */,
 				7E9F23CD2532258F009D0247 /* AppDelegate.swift in Sources */,
