@@ -8,14 +8,12 @@
 import Foundation
 
 private let dateFormatter: DateFormatter = {
-    print("I just created another data formatter!")
     let dateFormatter = DateFormatter()
     dateFormatter.dateFormat = "EEEE"
     return dateFormatter
 }()
 
 private let hourFormatter: DateFormatter = {
-    print("I just created a hourly another data formatter!")
     let hourFormatter = DateFormatter()
     hourFormatter.dateFormat = "ha"
     return hourFormatter
@@ -115,7 +113,6 @@ class WeatherDetail:WeatherLocation {
                     let dailyLow = Int(result.daily[index].temp.min.rounded())
                     let dailyWeather = DailyWeather(dailyIcon: dailyIcon, dailyWeekday: dailyWeekday, dailySummary: dailySummary, dailyHigh: dailyHigh, dailyLow: dailyLow)
                     self.dailyWeatherData.append(dailyWeather)
-                    print("Day: \(dailyWeekday) High: \(dailyHigh) Low:\(dailyLow)")
                 }
                 
                 //get only 24 hours of data
@@ -131,14 +128,11 @@ class WeatherDetail:WeatherLocation {
                         let hourlyWeather = HourlyWeather(hour: hour, hourlyTemperature: hourlyTemperature, hourlyIcon: hourlyIcon)
                         
                         self.hourlyWeatherData.append(hourlyWeather)
-                        print("hour: \(hour) Temp: \(hourlyTemperature) Icon:\(hourlyIcon)")
                     }
                 }
                 
                 
                 
-                print("\(result)")
-                print("Timezone for \(self.name) is \(result.timezone)")
             }
             catch{
                 print("ERROR: JSON \(error.localizedDescription)")
