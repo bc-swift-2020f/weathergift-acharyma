@@ -123,7 +123,7 @@ class WeatherDetail:WeatherLocation {
         case "03d", "03n", "04d", "04n":
             newFileName = "cloudy"
         case "09d", "09n", "10d", "10n":
-            newFileName = "clear-day"
+            newFileName = "rain"
         case "11d", "11n":
             newFileName = "lightning"
         case "13d", "13n":
